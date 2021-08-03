@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="/css/styles.css">
         <script src="/js/scripts.js"></script>
 
-</head>
+    </head>
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -25,25 +25,28 @@
                         <img src="/img/events_logo.svg" alt="Events">
                     </a>
                     <ul class="navbar-nav">
-                    <li class="nav-item">
+                        <li class="nav-item">
                             <a href="/" class="nav-link">Eventos</a>
-                    </li>
-                    <li class="nav-item">
-                            <a href="/" class="nav-link">Criar eventos</a>
-                    </li>
-                    <li class="nav-item">
+                        </li>
+                        <li class="nav-item">
+                            <a href="/events/create" class="nav-link">Criar eventos</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="/" class="nav-link">Entrar</a>
-                    </li>
-                    <li class="nav-item">
+                        </li>
+                        <li class="nav-item">
                             <a href="/" class="nav-link">Cadastrar</a>
-                    </li>
+                        </li>
                     </ul>
                 </div>
             </nav>
         </header>
+        
         @yield('content')
         <footer>
             <p>Events &copy; 2021</p>
         </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>

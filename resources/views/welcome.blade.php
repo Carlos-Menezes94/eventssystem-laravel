@@ -4,7 +4,8 @@
 
 @section('content')
 
-<h1>Alguma Titulo</h1>
+<h1>Algum Titulo</h1>
+<img src="/img/banner.jpg" alt="Banner">
 @if(10 > 15)
     <p>A condição é true</p>
 @endif
